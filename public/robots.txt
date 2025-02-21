@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://statfarma.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /perfil/
+Disallow: /login
+Disallow: /register
+Disallow: /carrinho
+
+# Allow crawling of important pages
+Allow: /curso/
+Allow: /blog/
+Allow: /contato
+
+# Crawl-delay
+Crawl-delay: 10
